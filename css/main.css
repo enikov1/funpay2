@@ -2381,6 +2381,7 @@ textarea {
             flex-direction: column;
     margin-bottom: 1.25rem;
     padding: 0;
+    display: block;
   }
 }
 
@@ -2445,10 +2446,6 @@ textarea {
         -ms-flex-align: center;
             align-items: center;
     width: 6.25rem;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 6.25rem;
-        -ms-flex: 0 0 6.25rem;
-            flex: 0 0 6.25rem;
     margin-right: 0.625rem;
     background-color: #eeeded;
     text-align: center;
