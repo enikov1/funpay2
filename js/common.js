@@ -64,4 +64,26 @@ $(document).ready(function () {
 		$('.header_nav').toggleClass('active');
 	});
 
+
+	// order comment
+
+	function mediaMove(insert, block) {
+		if($(window).width() <= 768) {
+
+			if(insert.find(block).length == 0) {
+				insert.append(block);
+			}
+			
+		}
+	}
+
+	let block_comment = $('.order-comment'),
+		block_inser = $('#insert_comment');
+	
+	$(window).on('resize', function() {
+		mediaMove(block_inser, block_comment);
+	});
+
+	mediaMove(block_inser, block_comment);
+
 });

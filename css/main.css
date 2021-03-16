@@ -1547,38 +1547,15 @@ textarea {
 }
 
 @media (max-width: 540px) {
-  .wrap_trade-col::after {
-    content: "...";
-    color: #0085d4;
-  }
-}
-
-@media (max-width: 540px) {
   .wrap_trade-col {
-    position: relative;
-    left: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    overflow: hidden;
-    margin-bottom: 1.5625rem;
+    left: auto;
+    right: 0;
+    margin-right: 0;
   }
 }
 
 .wrap_trade-col .top {
   margin-bottom: 0.75rem;
-}
-
-@media (max-width: 540px) {
-  .wrap_trade-col .top {
-    margin-bottom: 0;
-    margin-right: 1rem;
-  }
 }
 
 .wrap_trade-col .top i {
@@ -1593,16 +1570,6 @@ textarea {
 }
 
 @media (max-width: 540px) {
-  .wrap_trade-col .bottom {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: 1.25rem;
-  }
-}
-
-@media (max-width: 540px) {
   .wrap_trade-col ul {
     overflow-x: scroll;
   }
@@ -1610,13 +1577,6 @@ textarea {
 
 .wrap_trade-col ul li {
   margin-bottom: 0.125rem;
-}
-
-@media (max-width: 540px) {
-  .wrap_trade-col ul li {
-    margin-bottom: 0;
-    margin-right: 0.875rem;
-  }
 }
 
 .wrap_trade-col ul li:last-child {
@@ -1865,7 +1825,7 @@ textarea {
 
 .right-overlay {
   width: 65%;
-  top: 0;
+  top: 1.875rem;
   right: -16%;
   position: absolute;
 }
@@ -1902,14 +1862,14 @@ textarea {
   width: 3.5625rem;
   height: 3.5625rem;
   background-color: #c8c6c6;
-  margin-left: 5%;
+  margin-left: 0;
   border-radius: 100%;
 }
 
 .right-overlay span::after {
   content: "";
   position: absolute;
-  width: 90%;
+  width: 100%;
   right: 0;
   height: 0.25rem;
   background-color: #c8c6c6;
@@ -3745,6 +3705,10 @@ textarea {
   margin-right: 0;
 }
 
+#insert_comment {
+  margin-top: 1.875rem;
+}
+
 .speedbar {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3986,7 +3950,7 @@ textarea {
 }
 
 .tablet {
-  width: 22.5rem;
+  width: 23.25rem;
   border-radius: 0.3125rem;
   border: 0.0625rem solid #dbdbdb;
   background-color: white;
@@ -5093,5 +5057,14 @@ body > .container {
     -webkit-justify-content: flex-start !important;
         -ms-flex-pack: start !important;
             justify-content: flex-start !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4.375rem;
+    margin-left: 100%;
   }
 }
