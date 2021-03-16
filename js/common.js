@@ -64,6 +64,15 @@ $(document).ready(function () {
 		$('.header_nav').toggleClass('active');
 	});
 
+	// $('.carousel').owlCarousel({
+	// 	items: 1,
+	// 	nav:false,
+	// 	// autoplay:true,
+	// });
+
+	var swiper = new Swiper('.swiper-container', {
+		autoplay: true,
+	});
 
 	// order comment
 
