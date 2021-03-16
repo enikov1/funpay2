@@ -2998,7 +2998,7 @@ textarea {
 
 .pay-table {
   margin-bottom: 1.25rem;
-  width: 25rem;
+  width: 29.25rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4383,12 +4383,6 @@ body > .container {
 .container {
   width: 1170px;
   margin: 0 auto;
-}
-
-@media (min-width: 1680px) {
-  .container {
-    width: 1460px;
-  }
 }
 
 @media (max-width: 1200px) and (min-width: 900px) {
