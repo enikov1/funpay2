@@ -2374,13 +2374,9 @@ textarea {
 
 @media (max-width: 660px) {
   .user-block .form-pay .table-list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
     margin-bottom: 1.25rem;
     padding: 0;
+    display: block;
   }
 }
 
@@ -2430,10 +2426,6 @@ textarea {
     -webkit-flex-wrap: nowrap;
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
   .user-block .form-pay .table-item .item-smart {
     display: -webkit-box;
@@ -2455,10 +2447,8 @@ textarea {
             flex: 0 0 6.25rem;
     margin-right: 0.625rem;
     background-color: #eeeded;
+    text-align: center;
     padding: 0.4375rem 0.625rem;
-    -webkit-align-self: normal;
-        -ms-flex-item-align: normal;
-            align-self: normal;
   }
   .user-block .form-pay .table-item .py-10 {
     padding: 0.4375rem 0.75rem 0.4375rem 0;
