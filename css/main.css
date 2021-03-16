@@ -2446,10 +2446,13 @@ textarea {
         -ms-flex-align: center;
             align-items: center;
     width: 6.25rem;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 6.25rem;
+        -ms-flex: 0 0 6.25rem;
+            flex: 0 0 6.25rem;
     margin-right: 0.625rem;
     background-color: #eeeded;
-    text-align: center;
-    padding: 0.5625rem 0.625rem;
+    padding: 0.9375rem 0.625rem;
   }
   .user-block .form-pay .table-item .py-10 {
     padding: 0.4375rem 0.75rem 0.4375rem 0;
@@ -2474,6 +2477,7 @@ textarea {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 0.1875rem;
 }
 
 .user-block .form-pay .table-item .filter::after {
