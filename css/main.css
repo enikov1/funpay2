@@ -1461,6 +1461,10 @@ textarea {
   }
 }
 
+.header_nav ul li.small {
+  margin-right: 1.125rem;
+}
+
 .header_nav ul li {
   position: relative;
   margin-right: 2.25rem;
@@ -1862,7 +1866,7 @@ textarea {
 .right-overlay {
   width: 65%;
   top: 0;
-  right: -10%;
+  right: -16%;
   position: absolute;
 }
 
@@ -1870,7 +1874,7 @@ textarea {
   .right-overlay {
     position: relative;
     right: 0;
-    width: 130%;
+    width: 100%;
     margin-bottom: 2.5rem;
   }
 }
@@ -2177,7 +2181,7 @@ textarea {
 
 .user-block_center .calc .field-number {
   background-color: white;
-  width: 5.5rem;
+  width: 3.375rem;
   height: 2.625rem;
   border-radius: 0.3125rem;
   display: -webkit-box;
@@ -3672,8 +3676,10 @@ textarea {
   margin-bottom: 0.1875rem;
 }
 
-.order-table .item.last {
-  text-align: right;
+@media (max-width: 899px) {
+  .order-table .item.last {
+    text-align: right;
+  }
 }
 
 .order-comment {
@@ -3748,6 +3754,7 @@ textarea {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   margin-bottom: 1.875rem;
+  width: 100%;
 }
 
 .speedbar a, .speedbar span {
@@ -4055,6 +4062,7 @@ textarea {
     width: 100%;
     margin-top: 0;
     margin-bottom: 2.5rem;
+    height: auto;
   }
 }
 
@@ -4070,6 +4078,12 @@ textarea {
   top: 0;
   right: 0;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .faq-bg {
+    position: relative;
+  }
 }
 
 .popup {
