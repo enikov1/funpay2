@@ -1778,7 +1778,7 @@ textarea {
 
 .right-overlay-center {
   width: 100%;
-  top: 0;
+  top: 1.875rem;
   right: 0;
   position: absolute;
 }
@@ -1787,7 +1787,6 @@ textarea {
   .right-overlay-center {
     position: relative;
     right: 0;
-    width: 130% !important;
     margin-bottom: 2.5rem;
   }
 }
