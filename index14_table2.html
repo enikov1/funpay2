@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Index 14 table2</title>
+    <link rel="stylesheet" href="css/main.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="burger"><span></span></div>
+        <div class="header_logo"><a href="#"><img src="./img/logo.png" alt="logo"></a></div>
+        <nav class="header_nav">
+          <ul>
+            <li><a href="#">Мои предложения</a></li>
+            <li><a href="#"><i class="icon-buy"></i>Покупки</a></li>
+            <li><a href="#"><i class="icon-buy"></i>Продажи </a></li>
+            <li class="small"><a href="#"><i class="icon-chatting"></i>Сообщения</a></li>
+            <li><a href="#">Профиль </a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="flex flex-wrap">
+        <div class="w-full">
+          <h1 class="text-24 mb-20">Покупки</h1>
+          <div class="user-block">
+            <div class="form-pay">
+              <div class="form-pay_top">
+                <input class="field table-15" type="text" placeholder="Номер заказа">
+                <input class="field table-15" type="text" placeholder="Продавец">
+                <select class="select-default table-15" name="">
+                  <option value="1" selected>Статус</option>
+                  <option value="2">Статус 2</option>
+                  <option value="3">Статус 3</option>
+                  <option value="4">Статус 4</option>
+                </select>
+                <select class="select-default" name="">
+                  <option value="1" selected>Игра</option>
+                  <option value="2">Игра 2</option>
+                  <option value="3">Игра 3</option>
+                  <option value="4">Игра 4</option>
+                </select><a class="button-blue table-25 text-center" href="#">Применить фильтр</a>
+              </div>
+              <div class="table">
+                <div class="table-top border-white">
+                  <div class="table-item table-20">Дата</div>
+                  <div class="table-item table-15">Заказ</div>
+                  <div class="table-item table-30">Описание</div>
+                  <div class="table-item table-18">Продавец</div>
+                  <div class="table-item table-7">Статус</div>
+                  <div class="table-item table-10">Сумма</div>
+                </div>
+                <div class="table-list">
+                  <div class="table-item table-20"><span class="item-smart">Дата</span><span class="py-10">29 сентября 2020, 14:30<span class="text-gray block">6 месяцев назад</span></span></div>
+                  <div class="table-item table-15"><span class="item-smart">Заказ</span><span class="py-10">#БЫВРАВПКУ47836</span></div>
+                  <div class="table-item table-30"><span class="item-smart item-smart-2x">Описание</span><span class="py-10"><b class="block">Пример текста для написания описания</b><span>World of Warrcraft Classic (eu), Золото</span></span></div>
+                  <div class="table-item table-18"><span class="item-smart">Продавец</span><span class="py-10">
+                      <div class="author"><img src="./img/message-red.png" alt="avatar">
+                        <div class="flex flex-col"><b>Related Articles</b><span class="text-14">Был 22 часа назад</span></div>
+                      </div></span></div>
+                  <div class="table-item table-7"><span class="item-smart">Статус</span><span class="py-10 text-green">Закрыт</span></div>
+                  <div class="table-item table-10"><span class="item-smart">Сумма</span><span class="py-10 text-blue">8.08 <span class="text-black">₽</span></span></div>
+                </div>
+                <div class="table-list">
+                  <div class="table-item table-20"><span class="item-smart">Дата</span><span class="py-10">29 сентября 2020, 14:30<span class="text-gray block">6 месяцев назад</span></span></div>
+                  <div class="table-item table-15"><span class="item-smart">Заказ</span><span class="py-10">#БЫВРАВПКУ47836</span></div>
+                  <div class="table-item table-30"><span class="item-smart item-smart-2x">Описание</span><span class="py-10"><b class="block">Пример текста для написания описания</b><span>World of Warrcraft Classic (eu), Золото</span></span></div>
+                  <div class="table-item table-18"><span class="item-smart">Продавец</span><span class="py-10">
+                      <div class="author"><img src="./img/message-red.png" alt="avatar">
+                        <div class="flex flex-col"><b>Related Articles</b><span class="text-14">Был 22 часа назад</span></div>
+                      </div></span></div>
+                  <div class="table-item table-7"><span class="item-smart">Статус</span><span class="py-10 text-green">Закрыт</span></div>
+                  <div class="table-item table-10"><span class="item-smart">Сумма</span><span class="py-10 text-blue">8.08 <span class="text-black">₽</span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container"><a class="footer_logo" href="#"><img src="./img/logo.png" alt="logo"></a>
+        <ul class="footer_nav">
+          <li> <a href="#">Помощь</a></li>
+          <li> <a href="#">Сделать запрос</a></li>
+        </ul><span>&copy; Pay2trade 2020-2021</span>
+      </div>
+    </footer>
+    <div class="popup" id="popup-order">
+      <div class="popup-wrap">
+        <div class="popup-wrap_header"><span>Добавление предложения</span></div>
+        <div class="popup-wrap_form">
+          <select class="select-default" name="server">
+            <option value="0" selected>Сервер</option>
+            <option value="1">Сервер 1</option>
+            <option value="2">Сервер 2</option>
+            <option value="3">Сервер 3</option>
+            <option value="4">Сервер 4</option>
+            <option value="5">Сервер 5</option>
+          </select>
+          <select class="select-default" name="server">
+            <option value="0" selected>Сторона</option>
+            <option value="1">Сторона 1</option>
+            <option value="2">Сторона 2</option>
+            <option value="3">Сторона 3</option>
+            <option value="4">Сторона 4</option>
+            <option value="5">Сторона 5</option>
+          </select>
+          <select class="select-default" name="server">
+            <option value="0" selected>Тип</option>
+            <option value="1">Тип 1</option>
+            <option value="2">Тип 2</option>
+            <option value="3">Тип 3</option>
+            <option value="4">Тип 4</option>
+            <option value="5">Тип 5</option>
+          </select>
+          <textarea class="field-textarea shortstory" name="shortstory" placeholder="Краткое описание"></textarea>
+          <textarea class="field-textarea" name="fullstory" placeholder="Полное описание"> </textarea>
+          <div class="field-group-text">
+            <input class="field" type="text" placeholder="Цена"><span class="text">руб</span>
+          </div>
+          <div class="flex flex-center mt-20"><a class="button-blue" href="#">Добавить</a><a class="button-gray" href="#" id="close-order">Закрыть </a></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./libs/jquery.custom-select/jquery.custom-select.js"></script>
+    <script src="./libs/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="./libs/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/common.js"> </script>
+  </body>
+</html>
