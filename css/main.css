@@ -2984,6 +2984,53 @@ button.swiper-pagination-bullet {
   }
 }
 
+.user-block .form-pay .pay_top-end {
+  -webkit-box-pack: end !important;
+  -webkit-justify-content: flex-end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+
+.user-block .form-pay .items-start {
+  -webkit-box-align: start !important;
+  -webkit-align-items: flex-start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+}
+
+.user-block .form-pay .pr-15 {
+  padding-right: 0.9375rem;
+}
+
+.user-block .form-pay .w-360 {
+  width: 22.5rem !important;
+}
+
+.user-block .form-pay .w-125 {
+  width: 7.8125rem;
+}
+
+.user-block .form-pay .w-150 {
+  width: 9.375rem;
+}
+
+.user-block .form-pay .w-160 {
+  width: 10rem;
+}
+
+.user-block .form-pay .mmr-10 {
+  margin-right: 0.625rem;
+}
+
+@media (max-width: 540px) {
+  .user-block .form-pay .sm-flex-start {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
 .user-block .form-pay_top {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3228,6 +3275,10 @@ button.swiper-pagination-bullet {
   padding: 0.5rem 0.75rem;
 }
 
+.user-block .form-pay .table-list .field {
+  margin-bottom: 0;
+}
+
 @media (max-width: 660px) {
   .user-block .form-pay .table-list {
     -webkit-box-orient: vertical;
@@ -3309,6 +3360,25 @@ button.swiper-pagination-bullet {
     margin-right: 0.625rem;
     background-color: #eeeded;
     padding: 0.9375rem 0.625rem;
+  }
+  .user-block .form-pay .table-item .item-smart-right {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    text-align: right;
+    width: 7.5rem;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 7.5rem;
+        -ms-flex: 0 0 7.5rem;
+            flex: 0 0 7.5rem;
+    padding: 1.25rem 0.625rem;
+  }
+  .user-block .form-pay .table-item .item-smart-p-10 {
+    padding: 1.25rem 0.625rem 3.75rem 0.625rem;
+  }
+  .user-block .form-pay .table-item .item-smart-p-20 {
+    padding: 1.25rem 0.625rem 8.75rem 0.625rem;
   }
   .user-block .form-pay .table-item .item-smart-2x {
     padding: 2.375rem 0.625rem;
@@ -5632,7 +5702,7 @@ body > .container {
 }
 
 .text-blue {
-  color: #0085d4;
+  color: #0085d4 !important;
 }
 
 .text-black {
@@ -5649,6 +5719,12 @@ body > .container {
 
 .font-normal {
   font-style: normal !important;
+}
+
+@media (max-width: 540px) {
+  .sm-w-full {
+    width: 100% !important;
+  }
 }
 
 .descr {
